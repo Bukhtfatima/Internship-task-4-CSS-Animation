@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <link rel="stylesheet" href="btn.css">
+</head>
+
+<body>
+    <div class="text">
+        <h1>Switch to Day & Night</h1>
+        <p>This is the simple html page where you can switch the night mode from day mode & vice versa eery time when
+            you switch from day to night the button will change its design according to the switched mode</p>
+    </div>
+    <label class="switch">
+        <input type="checkbox" onchange="nightMode()">
+        <span class="slider">
+            <!-- day -->
+            <div class="day">
+                <div class="grassland gl1"></div>
+                <div class="grassland gl2"></div>
+                <div class="grassland gl3"></div>
+                <div class="daytree"><img src="daytree.png"></div>
+                <div class="mountain m4"></div>
+                <div class="mountain m1"></div>
+                <div class="mountain m2"></div>
+                <div class="mountain m3"></div>
+                <div class="bird b1"><img src="bird.png" alt=""></div>
+                <div class="bird b2"><img src="bird.png" alt=""></div>
+                <div class="bird b3"><img src="bird.png" alt=""></div>
+                <div class="bird b4"><img src="bird.png" alt=""></div>
+            </div>
+            <!-- night -->
+            <div class="night">
+                <div class="sky">
+                    <div class="stars one">*</div>
+                    <div class="stars two">*</div>
+                    <div class="stars three">*</div>
+                    <div class="stars four">*</div>
+                    <div class="stars five">*</div>
+                    <div class="stars six">*</div>
+                    <div class="stars seven">*</div>
+                    <div class="stars eight">*</div>
+                    <div class="cloud c1"><img src="clouds.png"></div>
+                    <div class="cloud c2"><img src="clouds.png"></div>
+                    <div class="cloud c3"><img src="clouds.png"></div>
+                </div>
+                <div class="land">
+                    <div class="tree">
+                        <img src="tree.png">
+                    </div>
+                    <div class="horse"><img src="horse.png"></div>
+                    <div class="river"></div>
+                </div>
+            </div>
+        </span>
+    </label>
+    <script src="btn.js"></script>
+</body>
+
+</html>
